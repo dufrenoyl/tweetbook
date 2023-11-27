@@ -3755,28 +3755,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LDUFRENOY\\.nuget\\packages\\": {}
+    "/Users/ldufrenoy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LDUFRENOY\\OneDrive - Watchtower\\Documents\\Visual Studio 2022\\testing\\TweetBook\\TweetBook.csproj",
+      "projectUniqueName": "/Users/ldufrenoy/Documents/Development/tweetbook/TweetBook.csproj",
       "projectName": "TweetBook",
-      "projectPath": "C:\\Users\\LDUFRENOY\\OneDrive - Watchtower\\Documents\\Visual Studio 2022\\testing\\TweetBook\\TweetBook.csproj",
-      "packagesPath": "C:\\Users\\LDUFRENOY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LDUFRENOY\\OneDrive - Watchtower\\Documents\\Visual Studio 2022\\testing\\TweetBook\\obj\\",
+      "projectPath": "/Users/ldufrenoy/Documents/Development/tweetbook/TweetBook.csproj",
+      "packagesPath": "/Users/ldufrenoy/.nuget/packages/",
+      "outputPath": "/Users/ldufrenoy/Documents/Development/tweetbook/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LDUFRENOY\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ldufrenoy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\packages": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://packages.bethel.jw.org/artifactory/api/nuget/v3/nuget-apps": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
@@ -3788,9 +3785,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -3843,7 +3837,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
       }
     }
   }
