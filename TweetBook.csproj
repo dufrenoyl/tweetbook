@@ -21,4 +21,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Contracts\V1\Requests\" />
+    <None Remove="Contracts\V1\Responses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\V1\Requests\" />
+    <Folder Include="Contracts\V1\Responses\" />
+  </ItemGroup>
 </Project>

@@ -24,5 +24,20 @@ namespace TweetBook.Controllers.V1
         }
 
         [HttpPost(ApiRoutes.Posts.Create)]
+        public IActionResult Create([FromBody] Post post)
+        {
+            if (string.IsNullOrEmpty(post.Id))
+            {
+                post.Id = Guid.NewGuid().ToString();
+            }
+
+            _posts.Add(post);
+
+
+            var baseUrl = $"{HttpContext.Request.Scheme}://{HttpContext.Request.Host.ToUriComponent()}";
+            var locationUri = baseUrl + "/" + ApiRoutes.Posts.Get.Replace("postId", post.Id);
+            return Created(locationUri, post);
+        }
+
     }
 }
