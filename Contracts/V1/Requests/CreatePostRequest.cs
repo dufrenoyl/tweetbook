@@ -1,11 +1,8 @@
-﻿using System;
-namespace TweetBook.Contracts.V1.Requests
+﻿namespace TweetBook.Contracts.V1.Requests
 {
-	public class CreatePostRequest
+    public class CreatePostRequest
 	{
-		public CreatePostRequest()
-		{
-		}
+		public string Id { get; set; }
 	}
 }
 
