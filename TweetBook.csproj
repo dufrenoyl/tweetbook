@@ -26,7 +26,6 @@
     <None Remove="Contracts\V1\Responses\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Contracts\V1\Requests\" />
     <Folder Include="Contracts\V1\Responses\" />
   </ItemGroup>
 </Project>
