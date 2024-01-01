@@ -9,7 +9,7 @@ using TweetBook.Data;
 
 namespace TweetBook.Data.Migrations
 {
-    [DbContext(typeof(DataDbContext))]
+    [DbContext(typeof(DataContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
